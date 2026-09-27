@@ -4,136 +4,34 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Skill17 Web Technologies</title>
-  <meta name="description" content="Training hub for WorldSkills Skill 17 Web Technologies: what is assessed, the road to WorldSkills, and starter setups for WSC2026.">
+  <meta name="description" content="Skill17: training for Web Technologies at WorldSkills 2028 in Aichi, Japan. Coming soon.">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <a class="skip" href="#main">Skip to content</a>
-
   <header class="site-header wrap">
-    <a class="wordmark" href="/" aria-label="Skill17 home">Skill<span>17</span></a>
-    <nav aria-label="Main">
-      <a href="#scheme">Marking</a>
-      <a href="#road">Road to WorldSkills</a>
-      <a href="#starters">Starter setups</a>
-      <a href="https://github.com/Skill17-WebTechnologies">GitHub</a>
-    </nav>
+    <span class="wordmark">Skill17</span>
   </header>
 
-  <main id="main">
-    <section class="hero wrap" id="scheme" aria-labelledby="hero-title">
-      <h1 id="hero-title">Train for WorldSkills Web&nbsp;Technologies.</h1>
-      <p class="lede">
-        Skill17 collects everything our competitors and experts use to prepare for
-        EuroSkills and WorldSkills: the standards, the competition path, and
-        ready-to-run project setups for every allowed framework.
-      </p>
-
-      <figure class="scheme">
-        <figcaption>How a Skill 17 test project is marked</figcaption>
-        <div class="bar" role="img" aria-label="Marking weights: Design implementation 25 percent, Front-end development 25 percent, Back-end development 40 percent, Professional skills 10 percent.">
-          <span class="seg seg-design"   style="--w:25"><b>25%</b></span>
-          <span class="seg seg-front"    style="--w:25"><b>25%</b></span>
-          <span class="seg seg-back"     style="--w:40"><b>40%</b></span>
-          <span class="seg seg-pro"      style="--w:10"><b>10%</b></span>
-        </div>
-        <dl class="areas">
-          <div class="area area-design">
-            <dt>Design implementation</dt>
-            <dd>Visual design, responsive layouts, accessibility, UX prototyping and SEO.</dd>
-          </div>
-          <div class="area area-front">
-            <dt>Front-end development</dt>
-            <dd>JavaScript, modern frameworks, interactive features, testing and deployment.</dd>
-          </div>
-          <div class="area area-back">
-            <dt>Back-end development</dt>
-            <dd>Server-side code, database design, APIs, security and architecture.</dd>
-          </div>
-          <div class="area area-pro">
-            <dt>Professional skills</dt>
-            <dd>Planning your time, version control, communication and problem solving.</dd>
-          </div>
-        </dl>
-      </figure>
-    </section>
-
-    <section class="road wrap" id="road" aria-labelledby="road-title">
-      <h2 id="road-title">The road to WorldSkills</h2>
-      <ol class="steps">
-        <li>
-          <h3>National selection</h3>
-          <p>Each country runs its own regional and national rounds. Winning earns a place on the national team.</p>
-        </li>
-        <li>
-          <h3>Continental competitions</h3>
-          <p>EuroSkills and other regional events are where top performers get competition experience at international level.</p>
-        </li>
-        <li>
-          <h3>WorldSkills International</h3>
-          <p>Every two years, competitors from over 60 countries meet for four competition days. You must be under 23 in the competition year.</p>
-        </li>
-      </ol>
-    </section>
-
-    <section class="starters wrap" id="starters" aria-labelledby="starters-title">
-      <h2 id="starters-title">Starter setups for WSC2026</h2>
-      <p class="section-intro">
-        Each repository holds the exact upstream version used at the competition,
-        with a Docker setup so you can start coding in minutes.
-      </p>
-
-      <div class="stack">
-        <div class="group">
-          <h3>Front-end</h3>
-          <ul>
-            <li><a href="https://github.com/Skill17-WebTechnologies/ws26-reactjs">React</a><span>19.2.4</span></li>
-            <li><a href="https://github.com/Skill17-WebTechnologies/ws26-vuejs">Vue.js</a><span>3.5.28</span></li>
-            <li><a href="https://github.com/Skill17-WebTechnologies/ws26-angular">Angular</a><span>21.1.4</span></li>
-            <li><a href="https://github.com/Skill17-WebTechnologies/ws26-nextjs">Next.js</a><span>16.1.6</span></li>
-            <li><a href="https://github.com/Skill17-WebTechnologies/ws26-nuxtjs">Nuxt</a><span>4.3.1</span></li>
-            <li><a href="https://github.com/Skill17-WebTechnologies/ws26-create-vue">create-vue</a><span>3.22.0</span></li>
-            <li><a href="https://github.com/Skill17-WebTechnologies/ws26-vue-cli">Vue CLI</a><span>5.0.9</span></li>
-            <li><a href="https://github.com/Skill17-WebTechnologies/ws26-jquery">jQuery</a><span>4.0.0</span></li>
-          </ul>
-        </div>
-        <div class="group">
-          <h3>Back-end</h3>
-          <ul>
-            <li><a href="https://github.com/Skill17-WebTechnologies/ws26-laravel">Laravel</a><span>12.61.1</span></li>
-            <li><a href="https://github.com/Skill17-WebTechnologies/ws26-expressjs">Express</a><span>5.2.1</span></li>
-            <li><a href="https://github.com/Skill17-WebTechnologies/ws26-codeigniter">CodeIgniter</a><span>4.6.5</span></li>
-            <li><a href="https://github.com/Skill17-WebTechnologies/ws26-yii">Yii</a><span>2.0.54</span></li>
-            <li><a href="https://github.com/Skill17-WebTechnologies/ws26-prisma">Prisma</a><span>7.3.0</span></li>
-            <li><a href="https://github.com/Skill17-WebTechnologies/ws26-nextts">Next.js + Prisma (TypeScript)</a><span>16.1.6</span></li>
-            <li><a href="https://github.com/Skill17-WebTechnologies/ws26-vanilla">Vanilla PHP + JavaScript</a><span>no framework</span></li>
-          </ul>
-        </div>
-        <div class="group">
-          <h3>CSS</h3>
-          <ul>
-            <li><a href="https://github.com/Skill17-WebTechnologies/ws26-tailwindcss">Tailwind CSS</a><span>4.1.18</span></li>
-            <li><a href="https://github.com/Skill17-WebTechnologies/ws26-bootstrap">Bootstrap</a><span>5.3.8</span></li>
-            <li><a href="https://github.com/Skill17-WebTechnologies/ws26-zurb-foundation">Foundation</a><span>6.9.0</span></li>
-          </ul>
-          <h3>Testing</h3>
-          <ul>
-            <li><a href="https://github.com/Skill17-WebTechnologies/ws26-phpunit">PHPUnit</a><span>12.5.12</span></li>
-            <li><a href="https://github.com/Skill17-WebTechnologies/ws26-cypress">Cypress</a><span>15.10.0</span></li>
-            <li><a href="https://github.com/Skill17-WebTechnologies/ws26-testcafe">TestCafe</a><span>3.7.4</span></li>
-          </ul>
-        </div>
-      </div>
-    </section>
+  <main class="wrap">
+    <p class="status">Coming soon</p>
+    <h1>Web Technologies for WorldSkills 2028.</h1>
+    <p class="venue">Aichi, Japan</p>
+    <p class="lede">
+      We're preparing training material, competition information and project
+      setups for Skill 17, Web Technologies, on the road to WorldSkills Aichi 2028.
+    </p>
+    <p class="links">
+      <a href="https://github.com/Skill17-WebTechnologies">Follow along on GitHub</a>
+      <a href="https://worldskills.org">WorldSkills International</a>
+    </p>
   </main>
 
   <footer class="site-footer wrap">
-    <p>Skill17 is run by the Web Technologies training team. Source and setups on <a href="https://github.com/Skill17-WebTechnologies">GitHub</a>.</p>
-    <p>Competition rules and standards: <a href="https://worldskills.org">worldskills.org</a></p>
+    <p>skill17.com</p>
   </footer>
 </body>
 </html>

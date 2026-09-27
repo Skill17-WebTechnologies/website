@@ -1,6 +1,6 @@
 # skill17.com
 
-Landing page for Skill17 Web Technologies, hosted on GitHub Pages.
+Coming-soon placeholder for Skill17 Web Technologies (WorldSkills Aichi 2028), hosted on GitHub Pages.
 
 Plain HTML and CSS, no build step. Pages serves the `main` branch root; `CNAME` binds the custom domain `skill17.com`.
 
