@@ -4,35 +4,264 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Skill17 Web Technologies</title>
-  <meta name="description" content="Skill17: training for Web Technologies at WorldSkills 2028 in Aichi, Japan. Coming soon.">
+  <meta name="description" content="Skill 17 Web Technologies: the skill, the competition from EuroSkills Düsseldorf 2027 to WorldSkills Aichi 2028, and a learning journey from first page to test project.">
+  <meta property="og:title" content="Skill17 Web Technologies">
+  <meta property="og:description" content="Skill 17 Web Technologies: the skill, the competition from EuroSkills Düsseldorf 2027 to WorldSkills Aichi 2028, and a learning journey from first page to test project.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://skill17.com/">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&display=swap" rel="stylesheet">
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="fonts/archivo-latin-800.woff2">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="site-header wrap">
-    <span class="wordmark">Skill17</span>
-  </header>
+  <div class="band">
+    <header class="site-header wrap">
+      <a class="brand" href="index.html"><img src="logo-light.svg" alt="" width="26" height="26">Skill17</a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="#skill">The skill</a>
+        <a href="#competition">Competition</a>
+        <a href="#standard">Standard</a>
+        <a href="#test-projects">Test projects</a>
+        <a href="journey.html">Learning journey</a>
+      </nav>
+    </header>
 
-  <main class="wrap">
-    <p class="status">Coming soon</p>
-    <h1>Web Technologies for WorldSkills 2028.</h1>
-    <p class="venue">Aichi, Japan</p>
-    <p class="lede">
-      We're preparing training material, competition information and project
-      setups for Skill 17, Web Technologies, on the road to WorldSkills Aichi 2028.
-    </p>
-    <p class="links">
-      <a href="https://worldskills.jp/en/worldskillsaichi2028/">About WorldSkills Aichi 2028</a>
-      <a href="https://github.com/Skill17-WebTechnologies">Follow along on GitHub</a>
-      <a href="https://worldskills.org">WorldSkills International</a>
-    </p>
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <p class="status">Skill 17 · Next up: EuroSkills Düsseldorf 2027</p>
+      <h1 id="hero-title">Web Technologies, from Düsseldorf to Aichi.</h1>
+      <p class="hero-sub">EuroSkills 2027 · WorldSkills 2028</p>
+      <p class="hero-lede">What the skill is, how the competition works, and a learning journey that takes you from your first HTML page to a full WorldSkills test project.</p>
+      <div class="actions">
+        <a class="btn btn--primary" href="journey.html">Start the learning journey</a>
+        <a class="btn btn--outline" href="#skill">What is Skill 17?</a>
+      </div>
+      <div class="stripe" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+    </section>
+  </div>
+
+  <main>
+    <section id="skill" class="on-surface" aria-labelledby="skill-title">
+      <div class="wrap section auto-grid skill">
+        <div class="tone-purple">
+          <p class="eyebrow">The skill</p>
+          <h2 id="skill-title" class="h2">Design, build and ship complete web applications.</h2>
+        </div>
+        <div class="skill-copy">
+          <p>Web Technologies covers the design, development, production and maintenance of websites and web applications. A web developer turns a client's requirements into a specification, designs the interface, builds the front end and the back end, integrates third-party platforms, then tests and deploys the result.</p>
+          <p class="muted">It is a single-competitor skill. Over the competition days each competitor works alone through a series of modules, under time limits, on a project they see for the first time.</p>
+          <p><a href="https://worldskills.org/skills/id/127/">Skill 17 on worldskills.org</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap section" aria-labelledby="paths-title">
+      <p class="eyebrow tone-pink">Is this for you?</p>
+      <h2 id="paths-title" class="h2 paths-heading">Three ways in, depending on where you are.</h2>
+      <div class="auto-grid paths">
+        <div class="card path tone-purple">
+          <h3>Discovering the skill</h3>
+          <p>You like making things on a computer and want to know if web development is for you. Start with the first two stages of the journey; no experience needed.</p>
+          <a href="journey.html#stage-01">Begin at stage 01 →</a>
+        </div>
+        <div class="card path tone-teal">
+          <h3>Aiming to compete</h3>
+          <p>You already build sites and want to qualify nationally for EuroSkills 2027 or WorldSkills 2028. Check the Standard, then work the competition stages and past test projects.</p>
+          <a href="journey.html#stage-06">Jump to competition practice →</a>
+        </div>
+        <div class="card path tone-amber">
+          <h3>Teaching or training</h3>
+          <p>You prepare students or a national team. Use the journey as a syllabus mapped to the WSOS sections and pick test projects for mock competitions.</p>
+          <a href="journey.html">See the WSOS mapping →</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="competition" class="panel" aria-labelledby="competition-title">
+      <div class="wrap section">
+        <div class="auto-grid split competition-head">
+          <div>
+            <p class="eyebrow">Competition format</p>
+            <h2 id="competition-title" class="h2">One competitor, several modules, a fixed clock.</h2>
+          </div>
+          <p class="panel-muted">Each module is a self-contained task with its own brief and time limit. Modules are marked against a marking scheme that follows the weightings of the Occupational Standard. The modules below are typical of recent Skill 17 competitions; the exact set for each competition is defined in its Technical Description and Test Project.</p>
+        </div>
+
+        <div class="cycle">
+          <p class="panel-muted">EuroSkills and WorldSkills alternate: EuroSkills one year, WorldSkills the next. At EuroSkills the skill is called Web Development.</p>
+          <div class="auto-grid cycle-cards">
+            <div class="cycle-card cycle-card--next">
+              <span class="cycle-when">2027 · Next competition</span>
+              <span class="cycle-name">EuroSkills Düsseldorf</span>
+              <span class="panel-muted">Germany</span>
+            </div>
+            <div class="cycle-card">
+              <span class="cycle-when">2028</span>
+              <span class="cycle-name">WorldSkills Aichi</span>
+              <span class="panel-muted">Japan</span>
+            </div>
+          </div>
+        </div>
+
+        <ul class="modules">
+          <li class="module tone-purple">
+            <span class="module-letter">A</span>
+            <h3>Speed test</h3>
+            <p>A set of small, independent tasks in HTML, CSS, JavaScript and PHP, solved against a short clock.</p>
+          </li>
+          <li class="module tone-pink">
+            <span class="module-letter">B</span>
+            <h3>Design and implementation</h3>
+            <p>Design and build a responsive, accessible website from a brief, brand guidelines and supplied media.</p>
+          </li>
+          <li class="module tone-amber">
+            <span class="module-letter">C</span>
+            <h3>Back end and REST API</h3>
+            <p>Model a database and build an API with authentication, validation and correct status codes to a given specification.</p>
+          </li>
+          <li class="module tone-teal">
+            <span class="module-letter">D</span>
+            <h3>Admin and server-side app</h3>
+            <p>Build a server-rendered management interface on top of the data, often with a back-end framework.</p>
+          </li>
+          <li class="module tone-link">
+            <span class="module-letter">E</span>
+            <h3>Front end client</h3>
+            <p>Build an interactive single-page client that consumes the API, usually with a JavaScript framework.</p>
+          </li>
+        </ul>
+
+        <p class="panel-muted compete-note">To compete at EuroSkills or WorldSkills you need to qualify through your country's WorldSkills member organisation. <a href="https://worldskills.org/get-involved/how-compete/">How to compete</a></p>
+      </div>
+    </section>
+
+    <section id="standard" class="wrap section" aria-labelledby="standard-title">
+      <div class="auto-grid split standard-head">
+        <div>
+          <p class="eyebrow tone-amber">Occupational Standard</p>
+          <h2 id="standard-title" class="h2">Where the marks come from.</h2>
+        </div>
+        <p class="muted">The WorldSkills Occupational Standard (WSOS) splits the skill into five sections, each weighted by its share of the total marks. It is the best guide to what to train. Weightings from the <a href="https://worldskills.org/what/projects/wsos/2024/events/579/skills/1693">WorldSkills Lyon 2024 WSOS</a>.</p>
+      </div>
+
+      <div class="weights" aria-hidden="true">
+        <span class="tone-purple"></span><span class="tone-pink"></span><span class="tone-amber"></span><span class="tone-teal"></span><span class="tone-blue"></span>
+      </div>
+
+      <ul class="auto-grid wsos">
+        <li class="card wsos-card tone-purple">
+          <div class="wsos-top"><span class="wsos-num">Section 1</span><span class="wsos-weight">5%</span></div>
+          <h3>Work organization and management</h3>
+          <p>Planning to deadlines, troubleshooting, research, deployment optimisation and version control with git.</p>
+        </li>
+        <li class="card wsos-card tone-pink">
+          <div class="wsos-top"><span class="wsos-num">Section 2</span><span class="wsos-weight">5%</span></div>
+          <h3>Communication and interpersonal skills</h3>
+          <p>Reading specifications and provided code, wireframes and flowcharts, matching client requirements.</p>
+        </li>
+        <li class="card wsos-card tone-amber">
+          <div class="wsos-top"><span class="wsos-num">Section 3</span><span class="wsos-weight">25%</span></div>
+          <h3>Design implementation</h3>
+          <p>Responsive, accessible interfaces to W3C and WCAG standards, typography, images, CSS animation and SEO.</p>
+        </li>
+        <li class="card wsos-card tone-teal">
+          <div class="wsos-top"><span class="wsos-num">Section 4</span><span class="wsos-weight">25%</span></div>
+          <h3>Front-End Development</h3>
+          <p>Modular JavaScript, libraries and frameworks, automated testing, debugging and deploying from the Linux CLI.</p>
+        </li>
+        <li class="card wsos-card tone-blue">
+          <div class="wsos-top"><span class="wsos-num">Section 5</span><span class="wsos-weight">40%</span></div>
+          <h3>Back-End Development</h3>
+          <p>Object-oriented PHP and/or Node.js, database design, MVC, APIs, web application security and server configuration.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="test-projects" class="on-surface" aria-labelledby="projects-title">
+      <div class="wrap section">
+        <p class="eyebrow tone-teal">Past test projects</p>
+        <h2 id="projects-title" class="h2 projects-heading">Practise on the real thing.</h2>
+        <p class="projects-intro">Past test projects are the closest you can get to competition conditions. These public archives come from national selections and training competitions.</p>
+
+        <a class="feature" href="https://skillsit.eu/home">
+          <span class="feature-text">
+            <span class="feature-kicker">Platform · MITS</span>
+            <span class="feature-title">Marketable IT Skills</span>
+            <span class="feature-copy">Test projects from EuroSkills, WorldSkills and training competitions, adapted for vocational education. Browse Skill 17 modules by topic, from design implementation to automated testing.</span>
+          </span>
+          <span class="btn btn--light">Open skillsit.eu →</span>
+        </a>
+
+        <ul class="archives">
+          <li>
+            <a class="archive" href="https://github.com/skillsit-hu/ws2024-s17-hu-r3">
+              <span class="archive-title">Lyon 2024 national final (Hungary)</span>
+              <span class="archive-go">GitHub →</span>
+              <span class="archive-copy">Speed test, design and implementation, admin and REST API back end, REST API front end.</span>
+            </a>
+          </li>
+          <li>
+            <a class="archive" href="https://github.com/es2025-s17-hu/es2025-s17-hu-r3-tp">
+              <span class="archive-title">Herning 2025 national final and Lyon 2024 training competition</span>
+              <span class="archive-go">GitHub →</span>
+              <span class="archive-copy">Five modules with a full two-day schedule.</span>
+            </a>
+          </li>
+          <li>
+            <a class="archive" href="https://github.com/worldskillsuk/national-resources">
+              <span class="archive-title">WorldSkills UK national resources</span>
+              <span class="archive-go">GitHub →</span>
+              <span class="archive-copy">Speed tests, design implementation, front-end and back-end tasks at several levels.</span>
+            </a>
+          </li>
+        </ul>
+        <p class="archives-note">Know of another public archive? Suggest it on <a href="https://github.com/Skill17-WebTechnologies">GitHub</a>.</p>
+      </div>
+    </section>
+
+    <section id="resources" class="wrap section" aria-labelledby="resources-title">
+      <p class="eyebrow tone-link">Resources</p>
+      <h2 id="resources-title" class="h2 resources-heading">Official sources and references.</h2>
+      <ul class="auto-grid resources">
+        <li class="resource"><span class="resource-kind">WorldSkills</span><a href="https://worldskills.org/skills/id/127/">Skill 17 – Web Technologies</a></li>
+        <li class="resource"><span class="resource-kind">WorldSkills</span><a href="https://worldskills.org/what/projects/wsos/2024/events/579/skills/1693">Occupational Standard (Lyon 2024)</a></li>
+        <li class="resource"><span class="resource-kind">WorldSkills</span><a href="https://worldskills.org/get-involved/how-compete/">How to compete</a></li>
+        <li class="resource"><span class="resource-kind">EuroSkills</span><a href="https://worldskillseurope.org/">WorldSkills Europe</a></li>
+        <li class="resource"><span class="resource-kind">Aichi 2028</span><a href="https://worldskills.jp/en/worldskillsaichi2028/">About WorldSkills Aichi 2028</a></li>
+        <li class="resource"><span class="resource-kind">Learning paths</span><a href="https://www.skilldisplay.eu/">SkillDisplay</a></li>
+        <li class="resource"><span class="resource-kind">Test projects</span><a href="https://skillsit.eu/home">MITS – Marketable IT Skills</a></li>
+        <li class="resource"><span class="resource-kind">Reference</span><a href="https://developer.mozilla.org/">MDN Web Docs</a></li>
+        <li class="resource"><span class="resource-kind">Reference</span><a href="https://www.w3.org/WAI/WCAG22/quickref/">WCAG 2.2 quick reference</a></li>
+      </ul>
+    </section>
+
+    <section class="wrap cta-section" aria-labelledby="cta-title">
+      <div class="auto-grid cta">
+        <div>
+          <h2 id="cta-title">Start the learning journey.</h2>
+          <p>Six stages, from your first semantic page to a full test project under time. Track your progress as you go.</p>
+        </div>
+        <div class="cta-side">
+          <ol class="cta-stages">
+            <li>01 Structure and style</li>
+            <li>02 Design and accessibility</li>
+            <li>03 JavaScript</li>
+            <li>04 Back end and data</li>
+            <li>05 Frameworks and deployment</li>
+            <li>06 Competition practice</li>
+          </ol>
+          <a class="btn btn--white" href="journey.html">Open the journey →</a>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer wrap">
-    <p>skill17.com</p>
+    <span>skill17.com · An independent project, not affiliated with WorldSkills International. <a href="legal.html">Imprint &amp; privacy</a></span>
+    <div class="footer-links">
+      <a href="https://worldskillseurope.org/">WorldSkills Europe</a>
+      <a href="https://worldskills.jp/en/worldskillsaichi2028/">WorldSkills Aichi 2028</a>
+      <a href="https://github.com/Skill17-WebTechnologies">GitHub</a>
+    </div>
   </footer>
 </body>
 </html>
