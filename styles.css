@@ -97,7 +97,6 @@
   --ink-blue: #3346c9;
 
   --cta-bg: #0e7177;
-  --note-bg: #fff4d6;
 
   --display: "Archivo", system-ui, sans-serif;
   --body: "Atkinson Hyperlegible", system-ui, sans-serif;
@@ -129,7 +128,6 @@
     --ink-blue: #9aa8ff;
 
     --cta-bg: #0e7177;
-    --note-bg: #3a3016;
   }
 }
 
@@ -848,12 +846,6 @@ a:hover { color: var(--ink); text-decoration-thickness: 2px; }
   gap: 0.25rem;
 }
 .legal-block strong { font-weight: 700; }
-.note {
-  padding: 0.75rem 1rem;
-  background: var(--note-bg);
-  border-radius: 8px;
-  font-size: 0.96875rem;
-}
 
 /* ---------- Motion ---------- */
 
