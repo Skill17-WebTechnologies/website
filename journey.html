@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Learning journey · Skill17 Web Technologies</title>
+  <meta name="description" content="Six stages from your first HTML page to a full WorldSkills test project, mapped to the Occupational Standard. Track your progress as you go.">
+  <meta property="og:title" content="Skill17 Web Technologies">
+  <meta property="og:description" content="Six stages from your first HTML page to a full WorldSkills test project, mapped to the Occupational Standard. Track your progress as you go.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://skill17.com/journey.html">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="fonts/archivo-latin-800.woff2">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="journey.js"></script>
+</head>
+<body>
+  <div class="band">
+    <header class="site-header wrap">
+      <a class="brand" href="index.html"><img src="logo-light.svg" alt="" width="26" height="26">Skill17</a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="index.html#skill">The skill</a>
+        <a href="index.html#competition">Competition</a>
+        <a href="index.html#standard">Standard</a>
+        <a href="index.html#test-projects">Test projects</a>
+        <a href="journey.html" aria-current="page">Learning journey</a>
+      </nav>
+    </header>
+
+    <section class="wrap auto-grid journey-intro" aria-labelledby="journey-title">
+      <div>
+        <p class="eyebrow">Learning journey</p>
+        <h1 id="journey-title">From first page to test project.</h1>
+        <p class="journey-lede">Six stages in order. Each lists the WSOS sections it trains and a set of goals. Tick a goal once you can do it without help; progress is saved in this browser.</p>
+      </div>
+      <div class="progress" hidden>
+        <div class="progress-top">
+          <span class="progress-label">Your progress</span>
+          <span class="progress-pct" data-pct>0%</span>
+        </div>
+        <div class="segments">
+          <a class="segment tone-purple" href="#stage-01" data-segment="01" aria-label="Stage 01"></a>
+          <a class="segment tone-pink" href="#stage-02" data-segment="02" aria-label="Stage 02"></a>
+          <a class="segment tone-amber" href="#stage-03" data-segment="03" aria-label="Stage 03"></a>
+          <a class="segment tone-teal" href="#stage-04" data-segment="04" aria-label="Stage 04"></a>
+          <a class="segment tone-blue" href="#stage-05" data-segment="05" aria-label="Stage 05"></a>
+          <a class="segment tone-ink" href="#stage-06" data-segment="06" aria-label="Stage 06"></a>
+        </div>
+        <div class="progress-bottom">
+          <span data-total>0 of 30 goals</span>
+          <button type="button" class="reset" data-reset>Reset progress</button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <main class="wrap journey-main">
+    <a class="feature" href="https://www.skilldisplay.eu/">
+      <span class="feature-text">
+        <span class="feature-kicker">Learning path provider · SkillDisplay</span>
+        <span class="feature-title">Track and verify your skills</span>
+        <span class="feature-copy">SkillDisplay gives you clear learning paths built from skill definitions, shows what to learn next, and lets you request verification from your teachers, trainers or employers. Free access for learners; co-funded by EU Erasmus+.</span>
+      </span>
+      <span class="btn btn--light">Open skilldisplay.eu →</span>
+    </a>
+
+    <div class="stages">
+        <article id="stage-01" class="stage tone-purple" data-stage="01" aria-labelledby="stage-01-title">
+          <div class="stage-body auto-grid">
+            <div class="stage-info">
+              <div class="stage-meta">
+                <span class="stage-num">Stage 01</span>
+                <span class="pill pill--level">Beginner</span>
+                <span class="pill pill--done" hidden>Complete</span>
+              </div>
+              <h2 id="stage-01-title">Structure and style</h2>
+              <p class="stage-copy">Semantic HTML and modern CSS layout. Everything else in the competition is built on this.</p>
+              <div class="stage-field">
+                <span class="field-label">Trains WSOS</span>
+                <ul class="chips">
+                  <li class="chip tone-amber">3 Design implementation</li>
+                  <li class="chip tone-purple">1 Work organization</li>
+                </ul>
+              </div>
+              <div class="stage-field">
+                <span class="field-label">Tools</span>
+                <span class="stage-tools">HTML, CSS, Flexbox, Grid, a code editor, browser dev tools</span>
+              </div>
+              <div class="stage-field">
+                <span class="field-label">Start here</span>
+                <ul class="stage-links">
+                  <li><a href="https://developer.mozilla.org/en-US/docs/Learn_web_development">MDN: Learn web development</a></li>
+                  <li><a href="https://validator.w3.org/">W3C Markup Validator</a></li>
+                  <li><a href="https://skillsit.eu/home">MITS: SwapLoop Public Website</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="stage-goals">
+              <p class="field-label goals-head">Goals<span class="goals-count"></span></p>
+              <ul class="goals">
+                <li>Build a multi-page site using semantic HTML elements</li>
+                <li>Lay out a page with CSS Grid and Flexbox</li>
+                <li>Make the layout responsive from 320px to wide screens</li>
+                <li>Validate HTML and CSS with zero errors</li>
+                <li>Track your work with git and push it to GitHub</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article id="stage-02" class="stage tone-pink" data-stage="02" aria-labelledby="stage-02-title">
+          <div class="stage-body auto-grid">
+            <div class="stage-info">
+              <div class="stage-meta">
+                <span class="stage-num">Stage 02</span>
+                <span class="pill pill--level">Beginner</span>
+                <span class="pill pill--done" hidden>Complete</span>
+                <span class="pill pill--locked" hidden>Finish stage 01 first</span>
+              </div>
+              <h2 id="stage-02-title">Design and accessibility</h2>
+              <p class="stage-copy">Read a brief, turn it into a design, and make it usable for everyone.</p>
+              <div class="stage-field">
+                <span class="field-label">Trains WSOS</span>
+                <ul class="chips">
+                  <li class="chip tone-amber">3 Design implementation</li>
+                  <li class="chip tone-pink">2 Communication</li>
+                </ul>
+              </div>
+              <div class="stage-field">
+                <span class="field-label">Tools</span>
+                <span class="stage-tools">A design tool (e.g. Figma or Penpot), WCAG, a screen reader</span>
+              </div>
+              <div class="stage-field">
+                <span class="field-label">Start here</span>
+                <ul class="stage-links">
+                  <li><a href="https://www.w3.org/WAI/WCAG22/quickref/">WCAG 2.2 quick reference</a></li>
+                  <li><a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility">MDN: Accessibility</a></li>
+                  <li><a href="https://skillsit.eu/home">MITS: SkyDrop Marketing Website</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="stage-goals">
+              <p class="field-label goals-head">Goals<span class="goals-count"></span></p>
+              <ul class="goals">
+                <li>Draw a wireframe and a style guide from a short brief</li>
+                <li>Implement a design from a mockup, matching type and spacing</li>
+                <li>Meet WCAG AA contrast and full keyboard navigation</li>
+                <li>Optimise images and choose the right formats</li>
+                <li>Add a CSS animation that respects reduced motion</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article id="stage-03" class="stage tone-amber" data-stage="03" aria-labelledby="stage-03-title">
+          <div class="stage-body auto-grid">
+            <div class="stage-info">
+              <div class="stage-meta">
+                <span class="stage-num">Stage 03</span>
+                <span class="pill pill--level">Intermediate</span>
+                <span class="pill pill--done" hidden>Complete</span>
+                <span class="pill pill--locked" hidden>Finish stage 02 first</span>
+              </div>
+              <h2 id="stage-03-title">JavaScript</h2>
+              <p class="stage-copy">Plain JavaScript in the browser: the DOM, events, data and APIs, without a framework.</p>
+              <div class="stage-field">
+                <span class="field-label">Trains WSOS</span>
+                <ul class="chips">
+                  <li class="chip tone-teal">4 Front end</li>
+                </ul>
+              </div>
+              <div class="stage-field">
+                <span class="field-label">Tools</span>
+                <span class="stage-tools">JavaScript (ES modules), Fetch API, localStorage, Canvas</span>
+              </div>
+              <div class="stage-field">
+                <span class="field-label">Start here</span>
+                <ul class="stage-links">
+                  <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide">MDN: JavaScript guide</a></li>
+                  <li><a href="https://javascript.info/">javascript.info</a></li>
+                  <li><a href="https://skillsit.eu/home">MITS projects</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="stage-goals">
+              <p class="field-label goals-head">Goals<span class="goals-count"></span></p>
+              <ul class="goals">
+                <li>Build an interactive to-do app that persists to localStorage</li>
+                <li>Fetch data from a public REST API and render it</li>
+                <li>Handle loading, empty and error states</li>
+                <li>Split code into reusable ES modules</li>
+                <li>Write unit tests for a small function</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article id="stage-04" class="stage tone-teal" data-stage="04" aria-labelledby="stage-04-title">
+          <div class="stage-body auto-grid">
+            <div class="stage-info">
+              <div class="stage-meta">
+                <span class="stage-num">Stage 04</span>
+                <span class="pill pill--level">Intermediate</span>
+                <span class="pill pill--done" hidden>Complete</span>
+                <span class="pill pill--locked" hidden>Finish stage 03 first</span>
+              </div>
+              <h2 id="stage-04-title">Back end and data</h2>
+              <p class="stage-copy">The highest-weighted section of the Standard. Server code, databases and APIs.</p>
+              <div class="stage-field">
+                <span class="field-label">Trains WSOS</span>
+                <ul class="chips">
+                  <li class="chip tone-blue">5 Back end</li>
+                </ul>
+              </div>
+              <div class="stage-field">
+                <span class="field-label">Tools</span>
+                <span class="stage-tools">PHP and/or Node.js, MySQL/MariaDB, SQL, Postman or similar</span>
+              </div>
+              <div class="stage-field">
+                <span class="field-label">Start here</span>
+                <ul class="stage-links">
+                  <li><a href="https://www.php.net/manual/en/">PHP manual</a></li>
+                  <li><a href="https://owasp.org/www-project-top-ten/">OWASP Top 10</a></li>
+                  <li><a href="https://skillsit.eu/home">MITS projects</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="stage-goals">
+              <p class="field-label goals-head">Goals<span class="goals-count"></span></p>
+              <ul class="goals">
+                <li>Design a normalised database with keys and constraints</li>
+                <li>Build a REST API with token authentication</li>
+                <li>Validate input and return correct HTTP status codes</li>
+                <li>Protect against SQL injection, XSS and CSRF</li>
+                <li>Follow an API specification exactly</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article id="stage-05" class="stage tone-blue" data-stage="05" aria-labelledby="stage-05-title">
+          <div class="stage-body auto-grid">
+            <div class="stage-info">
+              <div class="stage-meta">
+                <span class="stage-num">Stage 05</span>
+                <span class="pill pill--level">Advanced</span>
+                <span class="pill pill--done" hidden>Complete</span>
+                <span class="pill pill--locked" hidden>Finish stage 04 first</span>
+              </div>
+              <h2 id="stage-05-title">Frameworks and deployment</h2>
+              <p class="stage-copy">A front-end framework and a back-end framework working together, deployed to a real server.</p>
+              <div class="stage-field">
+                <span class="field-label">Trains WSOS</span>
+                <ul class="chips">
+                  <li class="chip tone-teal">4 Front end</li>
+                  <li class="chip tone-blue">5 Back end</li>
+                  <li class="chip tone-purple">1 Work organization</li>
+                </ul>
+              </div>
+              <div class="stage-field">
+                <span class="field-label">Tools</span>
+                <span class="stage-tools">Vue or React, Laravel or Express, Linux CLI, SSH, a web server</span>
+              </div>
+              <div class="stage-field">
+                <span class="field-label">Start here</span>
+                <ul class="stage-links">
+                  <li><a href="https://vuejs.org/guide/">Vue guide</a></li>
+                  <li><a href="https://laravel.com/docs">Laravel docs</a></li>
+                  <li><a href="https://skillsit.eu/home">MITS projects</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="stage-goals">
+              <p class="field-label goals-head">Goals<span class="goals-count"></span></p>
+              <ul class="goals">
+                <li>Build a single-page app with routing and state</li>
+                <li>Connect the app to your own API</li>
+                <li>Build a server-rendered admin interface with a framework</li>
+                <li>Deploy over SSH and configure the web server</li>
+                <li>Document the deployment steps</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article id="stage-06" class="stage tone-ink" data-stage="06" aria-labelledby="stage-06-title">
+          <div class="stage-body auto-grid">
+            <div class="stage-info">
+              <div class="stage-meta">
+                <span class="stage-num">Stage 06</span>
+                <span class="pill pill--level">Competition</span>
+                <span class="pill pill--done" hidden>Complete</span>
+                <span class="pill pill--locked" hidden>Finish stage 05 first</span>
+              </div>
+              <h2 id="stage-06-title">Competition practice</h2>
+              <p class="stage-copy">Work to the clock on full modules from past test projects, then review against a marking scheme.</p>
+              <div class="stage-field">
+                <span class="field-label">Trains WSOS</span>
+                <ul class="chips">
+                  <li class="chip tone-purple">1 Work organization</li>
+                  <li class="chip tone-pink">2 Communication</li>
+                  <li class="chip tone-amber">3 Design implementation</li>
+                  <li class="chip tone-teal">4 Front end</li>
+                  <li class="chip tone-blue">5 Back end</li>
+                </ul>
+              </div>
+              <div class="stage-field">
+                <span class="field-label">Tools</span>
+                <span class="stage-tools">Past test projects, a timer, marking schemes</span>
+              </div>
+              <div class="stage-field">
+                <span class="field-label">Start here</span>
+                <ul class="stage-links">
+                  <li><a href="index.html#test-projects">Past test projects</a></li>
+                  <li><a href="https://skillsit.eu/home">MITS: SwapLoop Testing</a></li>
+                  <li><a href="https://worldskills.org/what/projects/wsos/2024/events/579/skills/1693">Occupational Standard</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="stage-goals">
+              <p class="field-label goals-head">Goals<span class="goals-count"></span></p>
+              <ul class="goals">
+                <li>Solve a full speed test within its time limit</li>
+                <li>Plan a module from its brief before writing code</li>
+                <li>Complete a design module in one sitting</li>
+                <li>Complete a back-end and front-end module pair</li>
+                <li>Mark your own work against a marking scheme and log what to fix</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+    </div>
+
+    <section class="auto-grid after" aria-labelledby="after-title">
+      <h2 id="after-title">Finished all six stages?</h2>
+      <p class="muted">Keep solving <a href="index.html#test-projects">past test projects</a> under time, and contact your national WorldSkills member about selection for EuroSkills Düsseldorf 2027 and WorldSkills Aichi 2028. <a href="https://worldskills.org/get-involved/how-compete/">How to compete</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer wrap">
+    <span>skill17.com · An independent project, not affiliated with WorldSkills International. <a href="legal.html">Imprint &amp; privacy</a></span>
+    <div class="footer-links">
+      <a href="https://worldskillseurope.org/">WorldSkills Europe</a>
+      <a href="https://worldskills.jp/en/worldskillsaichi2028/">WorldSkills Aichi 2028</a>
+      <a href="https://github.com/Skill17-WebTechnologies">GitHub</a>
+    </div>
+  </footer>
+</body>
+</html>
