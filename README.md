@@ -13,6 +13,14 @@ Plain HTML, CSS and a little vanilla JavaScript, no build step. Pages serves the
 | `journey.js` | Goal checklist and progress (`localStorage` key `skill17-journey-v2`); set `SEQUENTIAL` to unlock stages in order |
 | `fonts/` | Self-hosted Archivo and Atkinson Hyperlegible (SIL Open Font License, licences included) |
 
+## Releasing CSS or JS changes
+
+GitHub Pages lets browsers cache files for 10 minutes, so new HTML can briefly load next to an old stylesheet. When you change `styles.css` or `journey.js`, bump the `?v=` number on every link to it (`styles.css?v=2` in all three pages, `journey.js?v=2` in `journey.html`):
+
+```bash
+grep -n '?v=' *.html
+```
+
 ## Local preview
 
 ```bash
